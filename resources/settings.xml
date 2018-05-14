@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<setting id="target_type" type="select" label="Target type" values="plugin|window" default="plugin" />
+	<setting id="target" type="text" label="target to launch" default=""/>
+	<setting id="wait_time" label="seconds to wait on startup" type="slider" default="10" range="1,300" option="int" />
+</settings>
