@@ -2,13 +2,13 @@
 <addon id="service.autostart" name="autostart" version="0.0.5" provider-name="maxgrass">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
-  </requires>
-  <extension point="xbmc.service" library="service.py" start="login"/>
+    </requires>
+    <extension point="xbmc.service" library="service.py" start="login"/>
     <extension point="xbmc.addon.metadata">
         <assets>
             <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-            <screenshot>resources/screenshots/screenshot-01.png</screenshot>
+            <fanart>fanart.png</fanart>
+            <screenshot>screenshot-01.png</screenshot>
         </assets>
         <news>- automated updates</news>
         <description lang="en">Opens a window or launches an addon when Kodi starts.</description>
@@ -18,7 +18,7 @@
         <platform>all</platform>
         <language></language>
         <summary lang="en">Actions on Kodi start</summary>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <license>MIT</license>
         <source>https://github.com/maxgrass/service.autostart</source>
         <website>http://maxgrass.eu/</website>
     </extension>
